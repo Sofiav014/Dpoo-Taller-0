@@ -114,7 +114,7 @@ public class ConsolaOlimpicos
 	 */
 	private void ejecutarPaisRepresentanteAtleta()
 	{
-		System.out.println("\n" + "Atletas de un país" + "\n");
+		System.out.println("\n" + "Pais representante de un Atleta" + "\n");
 		String nombre_atleta = input("Ingrese el nombre del atleta que le interesa");
 		
 		String pais = calculadora.PaisRepresentanteAtleta(nombre_atleta);
